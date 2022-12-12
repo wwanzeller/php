@@ -1,0 +1,15 @@
+{
+    "name": "wwanzeller/php",
+    "description": "Repositorio PHP",
+    "autoload": {
+        "psr-4": {
+            "Wwanzeller\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Wenderson Wanzeller"
+        }
+    ],
+    "require": {}
+}
