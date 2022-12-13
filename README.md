@@ -1,6 +1,6 @@
 # Setup Docker para projetos com: PHP, MySQL, Nginx e phpMyAdmin.
 
-Clone Repositório
+Clone o repositório:
 ```sh
 git clone https://github.com/wwanzeller/php.git php
 ```
@@ -9,19 +9,19 @@ git clone https://github.com/wwanzeller/php.git php
 cd php/
 ```
 
-Remova o versionamento
+Remova o versionamento:
 ```sh
 rm -rf .git/
 ```
 
 
-Crie o Arquivo .env
+Crie o arquivo .env:
 ```sh
 cp .env.example .env
 ```
 
 
-Atualize as variáveis de ambiente do arquivo .env
+Atualize as variáveis de ambiente do arquivo .env:
 ```dosini
 DB_DATABASE=nome_que_desejar
 DB_ROOT_PASSWORD=root
@@ -30,28 +30,29 @@ DB_USERNAME=seu_nome
 ```
 
 
-Suba os containers do projeto
+Suba os containers do projeto:
 ```sh
 docker-compose up -d
 ```
 
 
-Acessar o container
+Acessar o container:
 ```sh
 docker-compose exec app bash
 ```
 
 
-Instalar as dependências do projeto
+Instalar dependências do projeto:
 ```sh
 composer install
 ```
 
 
-Acesse o projeto
+Acessar o projeto:
 [http://localhost](http://localhost)
 
-Acesse o phpMyAdmin:
+
+Acessar o phpMyAdmin:
 [http://localhost:8080](http://localhost:8080)
 ```dosini
 servidor=mysql
