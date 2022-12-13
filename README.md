@@ -23,10 +23,10 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-DB_DATABASE=nome_que_desejar_db
-DB_ROOT_USERNAME=root
-DB_USERNAME=root
-DB_PASSWORD=root
+DB_DATABASE=nome_que_desejar
+DB_ROOT_PASSWORD=root
+DB_PASSWORD=sua_senha
+DB_USERNAME=seu_nome
 ```
 
 
@@ -50,3 +50,18 @@ composer install
 
 Acesse o projeto
 [http://localhost](http://localhost)
+
+Acesse o phpMyAdmin:
+[http://localhost:8080](http://localhost:8080)
+```dosini
+servidor=mysql
+Utilizador=root
+Senha=root
+```
+ou
+
+```dosini
+servidor=mysql
+Utilizador=seu_nome
+Senha=sua_senha
+```
