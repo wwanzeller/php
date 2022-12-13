@@ -1,5 +1,4 @@
-# php
-# Setup Docker para projetos com: PHP, MySQL, Nginx e phpMyAdmin
+# Setup Docker para projetos com: PHP, MySQL, Nginx e phpMyAdmin.
 
 Clone Repositório
 ```sh
