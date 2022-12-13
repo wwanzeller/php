@@ -24,14 +24,10 @@ cp .env.example .env
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
-APP_NAME=laravel9
-APP_URL=http://localhost
-
 DB_DATABASE=nome_que_desejar_db
 DB_ROOT_USERNAME=root
 DB_USERNAME=root
 DB_PASSWORD=root
-
 ```
 
 
